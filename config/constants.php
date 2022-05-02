@@ -10,8 +10,8 @@ session_start();
 define('SITEURL','http://localhost/project/');
 define('LOCALHOST', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD','($@#()*2=6@SuYoG');
-define('DB_NAME', 'hiretobuild');
+define('DB_PASSWORD','db-password');
+define('DB_NAME', 'db-name');
 
 $conn=mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
